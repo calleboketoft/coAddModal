@@ -1,0 +1,1 @@
+angular.module('coAddModal', [ 'ui.bootstrap' ]);
