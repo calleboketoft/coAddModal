@@ -4,7 +4,7 @@ angular.module('coAddModal')
     return {
         open: function(options) {
             var modal = $modal.open({
-                templateUrl: 'components/coAddModal/coAddModalTemplate.html',
+                templateUrl: 'bower_components/coAddModal/coAddModalTemplate.html',
                 controller: 'CoAddModalController as vm',
                 resolve: {
                     options: function() {
